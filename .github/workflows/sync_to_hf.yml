@@ -14,4 +14,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Luke30074zm:$HF_TOKEN@huggingface.co/spaces/Luke30074zm/TGBOT main
+        run: git push --force https://Luke30074zm:$HF_TOKEN@huggingface.co/spaces/Luke30074zm/TGBOT main
